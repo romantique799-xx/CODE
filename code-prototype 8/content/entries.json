@@ -1,0 +1,73 @@
+{
+  "status": "final",
+  "provenance": {
+    "description": "The five final chapters supplied by the user in 已粘贴的文本.txt. Titles, paragraph order, wording, and punctuation are transcribed verbatim. Repeated blank separator lines are represented by the paragraph and chapter structure.",
+    "titles": "Exact numbered chapter titles from the supplied final text."
+  },
+  "entries": [
+    {
+      "id": 1,
+      "title": "1. Code as Material Form",
+      "definition": "Code as Material Form",
+      "status": "final",
+      "source": "User-supplied final text.",
+      "paragraphs": [
+        "Today, we tend to imagine “code” as something abstract and immaterial, as something hidden behind a screen. But the word itself actually has a surprisingly physical history.",
+        "The English word “code” came through Old French, where it referred to a system or book of laws. It came from the Latin word “codex,” and its earlier form “caudex” literally meant a tree trunk or block of wood. It could also refer to books made from wooden tablets covered in wax so people could write on them. The image here shows an ancient Roman wooden writing tablet. You can still see marks that seem to have been deliberately made by people, along with other damage that may have happened naturally over time.",
+        "I was quite shocked at first because this was completely different from how I had always understood code. But then I started to wonder, if the marks on a wooden tablet and the code behind a screen can both be called code, what do they actually have in common? Maybe it's that they both organize information into a form that can be read and recognized by another person or a system. They seem so different from each other, but somehow they are doing something very similar. But I still found it strange that the word originally came from something so physical and touchable, while today we tend to think of code as something abstract and immaterial. It's almost as if the physical part of code has disappeared. But has it really?",
+        "To be fair, I don't think its material existence has actually disappeared. Even though code seems to exist only behind a screen, it still depends on physical things in real life like circuits, electrical signals, and memory devices. The difference might be that we don’t directly see or touch the material that carries it anymore. With a wooden tablet, the marks are right in front of us, while with digital code, so much of what makes it work is hidden inside those machines. Maybe code hasn't become less material, it’s just its materiality has become harder to notice."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "2. Code as Instruction",
+      "definition": "Code as Instruction",
+      "status": "final",
+      "source": "User-supplied final text.",
+      "paragraphs": [
+        "I started to think of code as a set of rules, or as a structure that determines what can happen during the process of execution, not only determining the final output.",
+        "This image is Sol LeWitt’s Wall Drawing #289, it was first created in 1976. Wall Drawing #289 is based on a set of written instructions made by LeWitt, the goal was to let different people draw lines based on the instructions at different exhibition places, and the instructions described where the lines should be placed and how they should be drawn, such as extending 24 lines from the center, connecting midpoints, and connecting different corners of the wall. LeWitt did not actually make the drawing himself, he let other people carry out these instructions at each exhibition site. This made me think about “code” beyond computers. ",
+        "What I find really interesting is that the instructions do not describe every line as part of one fixed final image, they create the conditions for the image to be produced. Even when the same instructions are carried out by different people, in different situations and spaces, they can still produce similar works, but not necessarily exactly the same.",
+        "I also started wondering why LeWitt chose to let other people make the drawings instead of doing them himself. Maybe for him, the idea and the instructions were already the most important part of the work, rather than the act of drawing every line. But the people following these instructions still have to make their own decisions, which means LeWitt doesn't completely control what the final drawing looks like. For example, he decided where certain lines should start, but left the people drawing them to decide where they would end. I guess that's what I find most interesting about this work: the instructions stay the same, but there's still room for something different to happen each time they're followed. So code isn't just something that tells us what to do. It can also be a way of deciding which parts need to stay fixed, and which parts can be left open for someone else to figure out."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "3. Code as Translation",
+      "definition": "Code as Translation",
+      "status": "final",
+      "source": "User-supplied final text.",
+      "paragraphs": [
+        "On May 24, 1844, Samuel Morse sent the message “What hath God wrought?” from Washington, D.C. to Baltimore during his first long-distance telegraph demonstration. The image shows the original paper tape produced from that transmission. Morse’s telegraph turned the message into combinations of dots and dashes, and recorded them onto paper, then an operator could later translate them back into language.",
+        "The strange part to me is that the sentence itself could never just travel through the wire as a sentence. Before it could be transmitted, the language had to change into another form that the telegraph was able to carry, and then be changed back again at the other end. So the code here feels less like the information itself, and more like a way for us to communicate with a machine by translating language into a form it can transmit.",
+        "I used to think of translation as something between different languages, but here it's happening between human language and what a machine is able to handle. The telegraph doesn't need to know what the sentence means, it just needs the right signals to send it. So in a way, the machine itself is part of the reason why the message has to change its form.",
+        "This makes me think that code does not only store information, it also gives information another form so it can move through a certain medium and be translated back into language. In this case, code is a kind of translation system. The original meaning can remain the same, while the form of the information changes depending on how it needs to travel."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "4. Code as Shared Convention",
+      "definition": "Code as Shared Convention",
+      "status": "final",
+      "source": "User-supplied final text.",
+      "paragraphs": [
+        "For people who grew up in Chinese culture, the red “Double Happiness” (“囍”) symbol is something extremely familiar to almost everyone, we automatically connect it with weddings when we see one, without really needing to think about it. But these meanings do not naturally exist in the color red or in the shape of the character itself. They are something we learn after repeatedly seeing the symbol appear in similar situations within a specific cultural context.",
+        "This image is from Thomas Sauvin’s Until Death Do Us Part (2015), which collects Chinese wedding photographs from the Beijing Silvermine. The book itself is also designed to look like a red Double Happiness cigarette package. For someone familiar with this cultural background, it is definitely more than just two newlyweds and cigarettes. The red packaging and the “囍” character can already be read as signs of wedding, blessing, celebration, and ritual within this particular cultural context.",
+        "This kind of cultural code does not have a direct instruction manual to tell us how to read or decode it. In this case, code seems to be something other than a formally written rule or instruction. It can also be a shared reading habit or convention that a group of people learns over time. This also feels important to me as a graphic designer, because designers are often not creating meaning completely from zero. We are also working with signs and associations that the audience has already learned how to read."
+      ]
+    },
+    {
+      "id": 5,
+      "title": "5. Code as a Tool for Building Complexity",
+      "definition": "Code as a Tool for Building Complexity",
+      "status": "final",
+      "source": "User-supplied final text.",
+      "paragraphs": [
+        "At first glance, Rule 30 looks much more complicated than the rule that actually creates it. It is a cellular automaton discussed by Stephen Wolfram in How Do Simple Programs Behave? It starts with one black cell, and each row is made by applying the same simple rule to the row before it. The starting point is simple so is the rule. But after repeating it over and over, the pattern gets very irregular and complex, almost looking random. You can hardly tell the final outcome was made by such a simple rule just by looking at it.",
+        "What surprised me here is that this complexity does not have to be directly designed into the final image, it can emerge from repeating something very simple. The code itself is also not visible when I only look at the finished pattern,what I can see is just the behavior produced by the code over time.",
+        "I think this is also why I used to associate code with something really complicated. Most of the time, I only see what it produces, without knowing all the little steps behind it. But in this “Rule 30” case, each cell only follows a simple rule based on the cells above it. The whole complicated pattern was not designed in advance, it just keeps growing because the same rule is repeated again and again, and each new row becomes the starting point for the next one.",
+        "Perhaps the complexity we often think about code doesn't necessarily come from how complicated the code itself is, it’s from what can happen when even just a simple rule keeps running. In this case, I feel like code is not just a set of instructions, but also a way of building complexity from something that seems very simple at first."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+:root {
+  font-family: Arial, sans-serif;
+  color: #111;
+  background: #fff;
+  font-synthesis: none;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; overflow: hidden; }
+button { font: inherit; color: inherit; cursor: pointer; }
+[hidden] { display: none !important; }
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+#universe {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  touch-action: none;
+  outline: none;
+}
+
+#network-world, #connections, #nodes, #cloud { position: absolute; inset: 0; }
+#network-world { transform-origin: center; }
+#nodes { opacity: 0; }
+#connections { opacity: 0; }
+#connections, #cloud { width: 100%; height: 100%; pointer-events: none; }
+#connections { overflow: visible; }
+#cloud { z-index: 3; }
+#links line { stroke: #111; stroke-width: 1; vector-effect: non-scaling-stroke; opacity: .57; }
+
+.node {
+  position: absolute;
+  width: clamp(150px, 21.5vw, 305px);
+  transform: translate(-50%, -50%);
+  padding: 0;
+  border: 0;
+  background: none;
+  text-align: left;
+  user-select: none;
+  transition: transform .24s ease;
+}
+
+.node:disabled { pointer-events: none; }
+.node.selected { transform: translate(-50%, -50%) scale(1.065); }
+.node:focus-visible { outline: 1px solid currentColor; outline-offset: 5px; }
+.node-label { display: flex; gap: 8px; margin-bottom: 6px; font-size: 10px; line-height: 1.2; }
+.node-label .node-number { flex: none; }
+.node img {
+  display: block;
+  width: 100%;
+  max-height: clamp(110px, 32vh, 300px);
+  object-fit: contain;
+  object-position: left center;
+  filter: grayscale(1);
+  transition: filter .24s ease;
+}
+.node.selected img { filter: grayscale(0); }
+.node-arrow { display: none; }
+
+@media (max-width: 760px) {
+  .node { width: clamp(100px, 28vw, 155px); }
+  .node-label { gap: 5px; font-size: 8px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .node, .node img { transition: none; }
+}
+
+#network-wordmark {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font: 400 clamp(40px, 4vw, 100px)/1 Arial, sans-serif;
+  color: #a0a0a0;
+  opacity: 0;
+  pointer-events: none;
+}
